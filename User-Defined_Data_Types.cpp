@@ -20,7 +20,6 @@ bool OpenInputFile(ifstream& input, string filename);						// Bool function that
 
 int main()
 {
-	//In cout statement below SUBSTITUTE your name and lab number
 	cout << "User-Defined Data Types" << endl << endl;
 
 	//Variable declarations
