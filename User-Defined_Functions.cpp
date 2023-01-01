@@ -18,7 +18,6 @@ string remarks(float score, float totalPoints);		// Function for determining a r
 
 int main()
 {
-	//In cout statement below SUBSTITUTE your name and lab number
 	cout << "User-Defined Functions" << endl << endl;
 
 	//Variable declarations
