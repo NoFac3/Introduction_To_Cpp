@@ -15,7 +15,6 @@ using namespace std;
 
 int main()
 {
-	//In cout statement below SUBSTITUTE your name and lab number
 	cout << "If Loop and Input from Data File" << endl << endl;
 
 	//Variable declarations
