@@ -1,4 +1,4 @@
-//<Simple Arrays> -- C++ program that calculates user's proportional weight on another planet.
+//<Planet_Weight.cpp> -- C++ program that calculates user's proportional weight on another planet.
 
 //Include statements
 #include <iostream> 
