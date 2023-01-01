@@ -1,4 +1,5 @@
 //<If_Loops_and_Input_from_Data_File.cpp> --  C++ program that computes an assignment grade as a percentage from the student’s score and total points.
+// uses studentData.txt
 
 //Include statements
 #include <iostream>
