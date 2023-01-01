@@ -1,4 +1,4 @@
-//<Permutations.cpp> -- This is a program that uses two variables, number of students and members per team, to calculate the possible number of permutations for team arrangements and the steps to derive this solution. 
+//<Possible_Team_Arrangements.cpp> -- This is a program that uses two variables, number of students and members per team, to calculate the possible number of permutations for team arrangements and the steps to derive this solution. 
 
 //Include statements
 #include <iostream>
