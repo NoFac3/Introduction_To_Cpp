@@ -13,7 +13,6 @@ using namespace std;
 
 int main()
 {
-	//In cout statement below SUBSTITUTE your name and lab number
 	cout << "While Loops" << endl << endl;
 
 	//Variable declarations
