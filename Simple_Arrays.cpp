@@ -17,7 +17,6 @@ void OutputWeight(planetType planet, float weight);                 // Void Func
 
 int main()
 {
-    // Title
     cout << "Simple Arrays" << endl << endl;
 
     //Variable declarations
