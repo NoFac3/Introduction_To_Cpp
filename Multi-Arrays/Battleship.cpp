@@ -1,4 +1,4 @@
-//<Multi-Array> -- C++ program that utilizes array's to simulate the game of Battleship. It takes user coordinate input to sink fleet ships.
+//<Battleship.cpp> -- C++ program that utilizes array's to simulate the game of Battleship. It takes user coordinate input to sink fleet ships.
 // uses BattleshipGameBoard.txt file
 
 //Include statements
