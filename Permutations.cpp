@@ -14,7 +14,6 @@ const double PI = 3.1416;		//constant variable for pi that can handle decimal va
 
 int main()
 {
-	//In cout statement below SUBSTITUTE your name and lab number
 	cout << "Permtation Example" << endl << endl;
 
 	//Variable declarations
