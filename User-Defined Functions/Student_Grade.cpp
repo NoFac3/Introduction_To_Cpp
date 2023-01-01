@@ -1,4 +1,4 @@
-//<User-Defined_Functions.cpp> -- C++ Program that reads data from input file and & sends it to 3 functions that calculate & print the students last name, percent grade, decimal grade, & a preformance remark.  
+//<Student_Grade.cpp> -- C++ Program that reads data from input file and & sends it to 3 functions that calculate & print the students last name, percent grade, decimal grade, & a preformance remark.  
 // uses studentScores.txt as input file
 
 //Include statements
