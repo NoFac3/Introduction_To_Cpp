@@ -40,25 +40,25 @@ int main()
 	cout << "\t P(n,r) = n!" << divide << "[r!(n" << negative << "r)!]." << endl << endl; // Output: Using P(n,r) a proibability equation and "divide" character for the " / " symbol.
 	cout << "To Determine the approximate values of n!, r!, and (n - r)!, use the following formula: " << endl << endl; //Output indicating the repetition of the formula for all subsequent factorials.
 	
-  //Factorial
+  	//Factorial
 	cout << "\t x! = e^(-x) * x^(x) * " << squareRoot << "(2" << pi << "x)" << endl << endl; //Output for factorial equation with x as the base value that will be substituted for n, r, and (n-r)
 	
-  // Solve for n!
+  	// Solve for n!
 	cout << " Substitute x with n.\n\t  n! = " << n << "!" << endl; //Output substituted n, for (x)! lined up with prior equation for with tab sequences (\t), for mathematical formatting.
 	cout << "\t " << n << "! = e^(" << -n << ") * " << n << power << "(" << n << ") * " << squareRoot << "[(2)(" << PI << ")(" << n << ")]" << endl; //Output substituted formula with n, for (x)!,char symbol operators (/,^) ."
 	cout << "\t " << n << "! = " << n_factorial << endl << endl; //Output of n!.
 	
-  // Solve for r!
+ 	// Solve for r!
 	cout << " Substitute x with r.\n\t r! = " << r << "!" << endl;
 	cout << "\t " << r << "! = e^(" << -r << ") * " << r << power << "(" << r << ") * " << squareRoot << "[(2)(" << PI << ")(" << r << ")]" << endl; //Output substitute x for r.
 	cout << "\t " << r << "! = " << r_factorial << endl << endl; //Output solution of r!.
 	
-  // Solve for (n-r)!
+  	// Solve for (n-r)!
 	cout << " Substitute x with (n-r).\n      (n-r)! = (" << n << negative << r << ")! = " << (n - r) << "!" << endl; //Output simplification of (n-r) for (n-r)! Solution to (n-r)! factorial starting with the simplification of the internal operation, (n-r), which will be subtituted into the formula. Use of char negative as the minus sign in (n-r)!, avoiding redundancy.
 	cout << "\t " << (n - r) << "! = e^(" << -(n - r) << ") * " << (n - r) << power << "(" << (n - r) << ") * " << squareRoot << "[(2)(" << PI << ")(" << (n - r) << ")]" << endl; //Output substitute x with (n-r).
 	cout << "\t " << (n - r) << "! = " << n_minus_r_factorial << endl << endl; //Output solution for (n-r)!
 	
-  // Solve for P(n,r)
+  	// Solve for P(n,r)
 	cout << "Now, substitute the values for n!, r!, and (n-r)! into the initial formula for P(n,r): " << endl; //Output statemtent for substurtion of factorial values into initial equation.
 	cout << "\n P(n,r) = n! " << divide << " [r!(n-r)!]\n";	//Output equation for P(n,r)
 	cout << "\t = " << n << "! " << divide << " [" << r << "!(" << (n - r) << ")!]\n";	//Output equation variable substitution.
@@ -66,7 +66,7 @@ int main()
 	cout << "\t = " << n_factorial << " " << divide << " " << r_factorial * n_minus_r_factorial << "\n";	//Output equation further simplification via denomenator multiplication.
 	cout << "\t = " << n_factorial / (r_factorial * n_minus_r_factorial) << endl << endl;	//Output equation solution with unrounded, decimal value.
 	
-  //Solution: Concluding statements
+  	//Solution: Concluding statements
 	cout << "The floor of " << potentialTeamArangements << ", or rounding down to the nearest integer, will give the number of permutations.\n" << endl;//Output satement for rounding to the nearest whole number
 	cout << "The total number of team arrangements with " << r << " members: " << int(potentialTeamArangements) << " permutations." << endl << endl; //Output solution with nearest whole integer of possible permutations.
 
