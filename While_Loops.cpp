@@ -1,4 +1,4 @@
-//<While Loops> -- C++ program reads song times from file (in seconds), converts to minutes & seconds, & writes to output file.
+//<While_Loops.cpp> -- C++ program reads song times from file (in seconds), converts to minutes & seconds, & writes to output file.
 // uses songs.txt as input file
 
 //Include statements
