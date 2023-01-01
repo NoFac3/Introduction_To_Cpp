@@ -1,0 +1,10 @@
+Einstein 59 60
+Gauss 50 60
+Moore 40 60
+Smith 30 60
+Freud 20 60
+Stark 10 60
+Penny 52 60
+Worth 45 60
+Wayne 39 60
+Tesla 60 60
